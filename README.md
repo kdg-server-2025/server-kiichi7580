@@ -1,14 +1,1 @@
 # server-kiichi7580
-
-## 1回目の授業
-```bash
-# sshキー作成方法
-ssh-keygen -t ed25519
-
-# ファイルの中身を確認
-cat ~/.ssh/id_ed25519.pub
-
-# 以下のような感じで出てくれば成功
-ssh-ed25519 AAAAC3Nza
-
-```
