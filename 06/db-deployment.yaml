@@ -22,11 +22,11 @@ spec:
               name: wordpress-secret
         resources:
           requests:
-            memory: "256Mi"
-            cpu: "250m"
+            memory: "372Mi"
+            cpu: "100m"
           limits:
-            memory: "512Mi"
-            cpu: "500m"
+            memory: "1280Mi"
+            cpu: "300m"
         volumeMounts:
         - name: db-data-storage
           mountPath: /var/lib/mysql
