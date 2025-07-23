@@ -23,10 +23,10 @@ spec:
         resources:
           requests:
             memory: "256Mi"
-            cpu: "250m"
+            cpu: "350m"
           limits:
-            memory: "512Mi"
-            cpu: "500m"
+            memory: "768Mi"
+            cpu: "1050m"
         volumeMounts:
         - name: wp-data-storage
           mountPath: /var/www/html
